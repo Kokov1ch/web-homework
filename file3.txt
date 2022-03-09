@@ -1,3 +1,0 @@
-depressive  even
-depressive  odd
-depressive  odd
