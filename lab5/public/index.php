@@ -11,7 +11,7 @@ $offlane = new mars();
 $ult = new pos3();
 $arena = new arena();
 echo ("<b>Марс - герой с атрибутом </b>");
-$offlane->print();
+$offlane->printAtr();
 echo "<br>";
 echo ("<b>Ходит на   </b>");
 $ult ->printLine();
