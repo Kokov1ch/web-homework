@@ -1,18 +1,14 @@
 <?php
-
-class pos3
+namespace heroes;
+class mars
 {
-    var $role;
-    var $line;
+    var $atribute;
     function __construct()
     {
-        $this->role = 'tank';
-        $this->line = 'offlane';
+        $this->atribute = 'strength';
     }
-    public function printRole() {
-        echo("<b>".$this->role."<b>");
+    public function printAtr() {
+        echo("<b>".$this->atribute."<b>");
     }
-     public function printLine() {
-        echo("<b>".$this->line."<b>");
-    }
+
 }
