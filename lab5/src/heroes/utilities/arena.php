@@ -1,18 +1,13 @@
 <?php
-
-class pos3
+namespace heroes\utilities;
+class arena
 {
-    var $role;
-    var $line;
+    var $type;
     function __construct()
     {
-        $this->role = 'tank';
-        $this->line = 'offlane';
+        $this->type = 'zoning';
     }
-    public function printRole() {
-        echo("<b>".$this->role."<b>");
-    }
-     public function printLine() {
-        echo("<b>".$this->line."<b>");
+    public function printType() {
+        echo("<b>".$this->type."</b>");
     }
 }
